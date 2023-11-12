@@ -41,13 +41,6 @@ The ETL pipeline consists of the following tasks:
 - load_data: Processes the extracted data and loads it into the "movie" table in PostgreSQL.
 
 
-# Potential Improvements
-- Error Handling: Implement comprehensive error-handling mechanisms for tasks that involve external dependencies, such as API requests.
-- Dynamic Table Name: Allow for dynamic naming of the table based on configuration, making the DAG more reusable.
-- Parameterization: Parameterize the DAG with configurable parameters, such as the API endpoint, database connection details, and table schema.
-- Logging and Monitoring: Enhance logging and monitoring to facilitate better visibility into DAG execution and potential issues.
-
-
 # Development Setup
 To set up and run the DAG locally, follow these steps:
 - Build or pull the Docker image for the environment.
@@ -172,3 +165,11 @@ with DAG(
 
     # Define the task dependencies
     task_1 >> task_2 >> task_3 >> task_4 >> task_5
+
+
+
+
+
+# Potential Improvements
+- Error Handling: Implement comprehensive error-handling mechanisms for tasks that involve external dependencies, such as API requests.
+- Logging and Monitoring: Enhance logging and monitoring to facilitate better visibility into DAG execution and potential issues.
