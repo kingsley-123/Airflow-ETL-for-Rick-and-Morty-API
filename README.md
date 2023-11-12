@@ -11,7 +11,7 @@ The DAG follows a simple sequence of tasks:
 - extract_data: Extracts character data from the Rick and Morty API using an HTTP request.
 - load_data: Processes the extracted data and loads it into the "movie" table in the PostgreSQL database.
 
-  ![Uploading Rick_Morty_Architecture.drawio.png…]()
+ ![Rick_Morty_Architecture drawio](https://github.com/kingsley-123/Rick-Morty-End-to-End-Data-Engineering-Project/assets/63650573/7930580a-c97e-4801-ae78-77a32ef7092a)
 
 # Choice of Technologies
 The technologies used in this DAG include:
