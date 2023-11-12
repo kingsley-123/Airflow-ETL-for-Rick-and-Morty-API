@@ -10,3 +10,9 @@ The DAG follows a simple sequence of tasks:
 -- if_api_exit: Uses an HTTP sensor to check if the Rick and Morty API is accessible.
 -- extract_data: Extracts character data from the Rick and Morty API using an HTTP request.
 -- load_data: Processes the extracted data and loads it into the "movie" table in the PostgreSQL database.
+
+### Hi there 👋
+- 🔭 I’m currently working on a Document Streaming project using Apache Spark, Kafka, Flink, MongoDB, and PowerBI
+- 📫 How to reach me: kingskonk@gmail.com
+- ⚡ Fun fact: If data were dollars, we'd all be billionaires! By 2025, we're looking at 175 zettabytes of information. 
+    That's more zeros than my bank account!" 💰📊😄
