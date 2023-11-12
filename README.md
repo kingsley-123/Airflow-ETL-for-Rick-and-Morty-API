@@ -56,7 +56,6 @@ To set up and run the DAG locally, follow these steps:
 - Execute the DAG by initiating the Airflow webserver and scheduler.
 
 
-# Here is the code 
 # Import necessary modules and classes from Airflow and other libraries
 from airflow import DAG
 from datetime import datetime, timedelta
@@ -173,4 +172,3 @@ with DAG(
 
     # Define the task dependencies
     task_1 >> task_2 >> task_3 >> task_4 >> task_5
-
