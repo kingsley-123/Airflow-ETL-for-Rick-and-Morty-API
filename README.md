@@ -57,16 +57,16 @@ To set up and run the DAG locally, follow these steps:
 
 
 # Import necessary modules and classes from Airflow and other libraries
-from airflow import DAG
-from datetime import datetime, timedelta
-from airflow.providers.postgres.operators.postgres import PostgresOperator
-from airflow.providers.http.sensors.http import HttpSensor
-from airflow.providers.http.operators.http import SimpleHttpOperator
-import json
-from airflow.operators.python import PythonOperator
-import pandas as pd
-import requests
-from sqlalchemy import create_engine
+- from airflow import DAG
+- from datetime import datetime, timedelta
+- from airflow.providers.postgres.operators.postgres import PostgresOperator
+- from airflow.providers.http.sensors.http import HttpSensor
+- from airflow.providers.http.operators.http import SimpleHttpOperator
+- import json
+- from airflow.operators.python import PythonOperator
+- import pandas as pd
+- import requests
+- from sqlalchemy import create_engine
 
 # Define a function to process data extracted from the Rick and Morty API
 def process_data(ti):
