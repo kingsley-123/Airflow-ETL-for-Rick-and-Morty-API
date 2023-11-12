@@ -57,7 +57,7 @@ To set up and run the DAG locally, follow these steps:
 
 
 # Here is the code 
-Import necessary modules and classes from Airflow and other libraries
+# Import necessary modules and classes from Airflow and other libraries
 from airflow import DAG
 from datetime import datetime, timedelta
 from airflow.providers.postgres.operators.postgres import PostgresOperator
