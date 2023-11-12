@@ -11,8 +11,9 @@ The DAG follows a simple sequence of tasks:
 - extract_data: Extracts character data from the Rick and Morty API using an HTTP request.
 - load_data: Processes the extracted data and loads it into the "movie" table in the PostgreSQL database.
 
-### Hi there 👋
-- 🔭 I’m currently working on a Document Streaming project using Apache Spark, Kafka, Flink, MongoDB, and PowerBI
-- 📫 How to reach me: kingskonk@gmail.com
-- ⚡ Fun fact: If data were dollars, we'd all be billionaires! By 2025, we're looking at 175 zettabytes of information. 
-    That's more zeros than my bank account!" 💰📊😄
+Choice of Technologies
+The technologies used in this DAG include:
+- Apache Airflow: Chosen for orchestrating the ETL pipeline, providing a modular and scheduled approach.
+- PostgreSQL: Selected as the database for storing the processed data.
+- HTTP Sensor and SimpleHttpOperator: Leveraged for checking API availability and making HTTP requests to the Rick and Morty API.
+- Pandas and SQLAlchemy: Utilized for data processing and loading into the PostgreSQL database.
