@@ -166,10 +166,6 @@ with DAG(
     # Define the task dependencies
     task_1 >> task_2 >> task_3 >> task_4 >> task_5
 
-
-
-
-
 # Potential Improvements
 - Error Handling: Implement comprehensive error-handling mechanisms for tasks that involve external dependencies, such as API requests.
 - Logging and Monitoring: Enhance logging and monitoring to facilitate better visibility into DAG execution and potential issues.
