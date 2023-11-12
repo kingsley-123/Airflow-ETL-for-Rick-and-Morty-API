@@ -6,7 +6,7 @@ This Airflow DAG, named "rick_morty," is designed to extract, process, and load 
 # Architecture
  ![Rick_Morty_Architecture drawio](https://github.com/kingsley-123/Rick-Morty-End-to-End-Data-Engineering-Project/assets/63650573/7930580a-c97e-4801-ae78-77a32ef7092a)
 
-# The DAG follows a simple sequence of tasks:
+# The DAG Tasks:
 - drop_table: Drops the existing "movie" table from the PostgreSQL database.
 - create_table: Creates a new "movie" table in the PostgreSQL database with a defined schema.
 - if_api_exit: Uses an HTTP sensor to check if the Rick and Morty API is accessible.
