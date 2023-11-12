@@ -30,6 +30,8 @@ The data model consists of a single table named "movie" with the following schem
 - location (varchar): Character location.
 - no_of_episode (int): Number of episodes the character appeared in.
 - url (text): Character URL.
+
+  
 ![Untitled](https://github.com/kingsley-123/Rick-Morty-End-to-End-Data-Engineering-Project/assets/63650573/413a487f-c47b-490c-b85d-4e9ceaed8fbe)
 
 
