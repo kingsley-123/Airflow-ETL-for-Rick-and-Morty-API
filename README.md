@@ -175,6 +175,10 @@ with DAG(
 # Pipeline Status   
 ![Screenshot (32)](https://github.com/kingsley-123/Rick-Morty-End-to-End-Data-Engineering-Project/assets/63650573/191a8963-bcfa-4a45-af82-3eab1502c441)
 
+# Database
+![Screenshot (33)](https://github.com/kingsley-123/Rick-Morty-End-to-End-Data-Engineering-Project/assets/63650573/4a0fb423-d990-4116-9c72-feccec95e320)
+
+
 # Potential Improvements
 - Error Handling: Implement comprehensive error-handling mechanisms for tasks that involve external dependencies, such as API requests.
 - Logging and Monitoring: Enhance logging and monitoring to facilitate better visibility into DAG execution and potential issues.
