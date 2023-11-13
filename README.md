@@ -43,6 +43,9 @@ The ETL pipeline consists of the following tasks:
 - extract_data: Makes an HTTP request to the API to extract character data.
 - load_data: Processes the extracted data and loads it into the "movie" table in PostgreSQL.
 
+![Screenshot (31)](https://github.com/kingsley-123/Rick-Morty-End-to-End-Data-Engineering-Project/assets/63650573/e259f019-b32b-4806-b600-bf7842d5ef87)
+
+
 
 # Development Setup
 To set up and run the DAG locally, follow these steps:
